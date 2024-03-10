@@ -1,7 +1,7 @@
 h1{
   color: white;
   font-size: 48px;
-  margin: 10px;
+  margin: 5px;
   text-transform: uppercase;
   text-align: center;
   text-decoration: underline;
@@ -59,9 +59,21 @@ body{
 }
 
 .special-text{
-  font-size: 18x;
+  font-size: 18px;
   color: white;
   font-style: normal;
   text-align: center;
   font-family: "Bebas Neue", sans-serif
+}
+
+.text-box{
+  width: 95%;
+  padding: 1px;
+  border: 2px solid #17212d;
+  background-color: #6e081e;
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 18px;
+  margin: 20px auto;
+  text-align: center;
 }

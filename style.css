@@ -1,5 +1,6 @@
+
 h1{
-  color: white;
+  color: #fff;
   font-size: 48px;
   margin: 5px;
   text-transform: uppercase;
@@ -23,8 +24,8 @@ h2{
 
 body{
   background-color: #e4ccc0;
-  padding: 25px 0;
-  margin: 10 auto;
+  padding: 0.5;
+  margin: 0.5;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-style:normal;
@@ -79,7 +80,7 @@ body{
   border-radius: 10px;
   padding: 2%;
   margin: 0 0 1%;
-  color: white;
+  color: #fff;
 }
 
 #address{
@@ -87,9 +88,48 @@ body{
   padding: 20px;
   text-align: center;
   color: #977d6f;
+  border-radius: 10px;
 }
 
-.
+#picture-section{
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#banner-container{
+  background-color:#17212d;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.picture-box{
+  text-align: center;
+  width: 40%;
+  background-color: #947064;
+  padding: 20px;
+  padding-top: 40px;
+}
+
+.picture-box img{
+  width: 100%;
+  height: auto;
+  border: 1px solid #6e081e;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  margin-bottom: 10px;
+}
+
+.picture-box p{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  color: #e4ccc0;
+}
+
 .centred-picture{
   display: block;
   margin: 0 auto;
@@ -98,13 +138,13 @@ body{
 .rounded-picture{
   display: block;
   margin: 0 auto;
-  border-radius: 20px;
+  border-radius: 10px;
   box-shadow: 5px 5px 10px rgba(0, 0,0, 0.4);
 }
 
 .special-text{
   font-size: 18px;
-  color: white;
+  color: #fff;
   font-style: normal;
   text-align: center;
   font-family: "Bebas Neue", sans-serif
@@ -115,9 +155,9 @@ body{
   padding: 1px;
   border: 2px solid #17212d;
   background-color: #6e081e;
-  color: white;
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 18px;
+  color: #fff;
+  font-size: 15px;
   margin: 20px auto;
   text-align: center;
+  border-radius: 10px;
 }

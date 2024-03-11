@@ -53,9 +53,25 @@ body{
   cursor:default;
 }
 
+#navigation li a{
+  color: #6e081e;
+  text-decoration: none;
+}
+
+#navigation li a:hover{
+  color: #947064;
+}
+
 .centred-picture{
   display: block;
   margin: 0 auto;
+}
+
+.rounded-picture{
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0,0, 0.4);
 }
 
 .special-text{

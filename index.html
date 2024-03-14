@@ -1,71 +1,103 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Visit Amsterdam</title>
-    
-    <link rel="stylesheet" href="style.css" type="text/css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<head>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  </head>
-  
+  <title>Visit Amsterdam</title>
+
+  <!-- Bootstrap CSS-->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css" type="text/css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+
 <body>
 
-  <div id="banner-container">
-    <img src="../images/banner.png" alt="banner" width="100%" height="350">
-  </div>
+  <!-- Bootstrap JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 
-  <ul id="navigation">
-    <li class="current"> HOME </li>
-    <li> <a href="../pages/history.html">HISTORY</a> </li>
-    <li> <a href="../pages/visit.html">VISIT</a></li>
-  </ul>
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand me-auto" href="#">Logo</a>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Logo</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2 active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="#">History</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="#">Visit</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    </div>
+  </nav>
+
+  <section class="hero-section">
+  </section>
+
 
   <div class="text-box">
     <p>"In Amsterdam, the river and canals have been central to city life for the last four centuries" - Janet Echelman</p>
   </div>
 
-  <p> Hello and a warm welcome to our website! We are delighted that you have considered going on a journey to the wonderful capital of the Netherlands.  Get ready to dive into the rich tapestry of Amsterdam, where every canal tells a story and every street corner hides a unique experience.</p>
-  <p>As you navigate our website, you'll discover a treasure trove of information about this beautiful city. From its intriguing history to the must-visit attractions and essential experiences for every traveler, we've curated an immersive experience to make you feel like you're already strolling along the charming streets of Amsterdam.</p>
-  <p>Feel free to explore the various pages using the navigation buttons located at the top and bottom of each page. We've designed our site with your convenience in mind, ensuring that you can easily explore all that Amsterdam has to offer at your leisure.</p>
-  <p>As you browse through our content, we hope you'll feel inspired to plan your own adventure and experience the magic of the Netherlands firsthand. So, sit back, relax, and let us be your guide to Amsterdam – your unforgettable journey awaits! We can't wait to welcome you to the Netherlands soon. Happy exploring!</p>
-
-  <div id="picture-section">
-    <div class="picture-box">
-      <img src="../images/cannal1.jpg" alt= "" style="width:350px;">
-      <p>Night city view of buildings next to the Amstel river</p>
-    </div>
-
-    <div class="picture-box">
-      <img src="../images/cannal2.jpg" alt= "" style="width:350px;">
-      <p>Bikes on a bridge near the cannal</p>
-    </div>  
-
-    <div class="picture-box">
-      <img src="../images/eye-museum.jpg" alt= "" style="width:350px;">
-      <p>Eye Film Museum</p>
-    </div>
-  </div>
+  <p> Hello and a warm welcome to our website! We are delighted that you have considered going on a journey to the
+    wonderful capital of the Netherlands. Get ready to dive into the rich tapestry of Amsterdam, where every canal tells
+    a story and every street corner hides a unique experience.</p>
+  <p>As you navigate our website, you'll discover a treasure trove of information about this beautiful city. From its
+    intriguing history to the must-visit attractions and essential experiences for every traveler, we've curated an
+    immersive experience to make you feel like you're already strolling along the charming streets of Amsterdam.</p>
+  <p>Feel free to explore the various pages using the navigation buttons located at the top of each page.</p>
+  <p>As you browse through our content, we hope you'll feel inspired to plan your own adventure and experience the magic
+    of the Netherlands firsthand. So, sit back, relax, and let us be your guide to Amsterdam – your unforgettable
+    journey awaits! We can't wait to welcome you to the Netherlands soon. Happy exploring!</p>
 
 
   <h3> What to expect on each page</h3>
 
-  <p>On the Home Page, visitors can find general information about Amsterdam, including its rich cultural heritage, vibrant atmosphere, and iconic landmarks. They can get a glimpse of what makes Amsterdam a unique and enchanting destination for travelers from around the world.</p>
-  <p>The History Page provides a fascinating journey into Amsterdam's past, exploring its origins, significant historical events, and cultural evolution over the centuries. Visitors can delve into the city's captivating history, from its humble beginnings as a fishing village to its rise as a global hub of trade and culture.</p>
-  <p>The Visit Page is a comprehensive guide to exploring Amsterdam's top attractions, hidden gems, and must-visit destinations. From world-renowned museums like the Rijksmuseum and Van Gogh Museum to picturesque canal cruises and charming neighborhoods, visitors can discover the best experiences Amsterdam has to offer and plan their unforgettable journey in the vibrant city.</p>
+  <p>On the Home Page, visitors can find general information about Amsterdam, including its rich cultural heritage,
+    vibrant atmosphere, and iconic landmarks. They can get a glimpse of what makes Amsterdam a unique and enchanting
+    destination for travelers from around the world.</p>
+  <p>The History Page provides a fascinating journey into Amsterdam's past, exploring its origins, significant
+    historical events, and cultural evolution over the centuries. Visitors can delve into the city's captivating
+    history, from its humble beginnings as a fishing village to its rise as a global hub of trade and culture.</p>
+  <p>The Visit Page is a comprehensive guide to exploring Amsterdam's top attractions, hidden gems, and must-visit
+    destinations. From world-renowned museums like the Rijksmuseum and Van Gogh Museum to picturesque canal cruises and
+    charming neighborhoods, visitors can discover the best experiences Amsterdam has to offer and plan their
+    unforgettable journey in the vibrant city.</p>
 
 
   <footer>
     <div id="footer">
       Contact information
     </div>
-  
+
     <div id="address">
       <p>506 Eastonstraat</p>
       <p>Amsterdam, 1068JD</p>
@@ -73,7 +105,7 @@
       <p>Email: visitamsterdam@outlook.com</p>
       <p>Phone: +310680395353</p>
 
-    </div>  
+    </div>
 
     <p></p>
 
@@ -86,4 +118,5 @@
 
   </footer>
 </body>
+
 </html>

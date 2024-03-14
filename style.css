@@ -1,6 +1,6 @@
 
 h1{
-  color: #fff;
+  color: #17212d;
   font-size: 48px;
   margin: 5px;
   text-transform: uppercase;
@@ -23,7 +23,8 @@ h2{
 }
 
 body{
-  background-color: #e4ccc0;
+  padding-top: 70px;
+  background-color: #fff;
   padding: 0.5;
   margin: 0.5;
   font-family: "Inter", sans-serif;
@@ -65,13 +66,6 @@ body{
   color: #947064;
 }
 
-#bottom-navigation{
-  background-color: #947064;
-  color: #d0d8d5;
-  padding: 20px;
-  text-align: center;
-}
-
 #footer{
   background-color: #6e081e;
   text-align: center;
@@ -87,7 +81,7 @@ body{
   background-color: #17212d;
   padding: 20px;
   text-align: center;
-  color: #977d6f;
+  color: #fff;
   border-radius: 10px;
 }
 
@@ -144,7 +138,7 @@ body{
 
 .special-text{
   font-size: 18px;
-  color: #fff;
+  color: #6e081e;
   font-style: normal;
   text-align: center;
   font-family: "Bebas Neue", sans-serif
@@ -160,4 +154,42 @@ body{
   margin: 20px auto;
   text-align: center;
   border-radius: 10px;
+}
+
+.navbar{
+  background-color: #fff;
+  height: 70px;
+}
+
+.navbar-brand{
+  font-weight: 500;
+  color: #6e081e;
+  font-size: 24px;
+  transition: 0.3s color;
+}
+
+.navbar-toggler{
+  border: none;
+  font-size: 1.25em;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.nav-link{
+  color: #947064;
+  font-weight: 500;
+}
+
+.nav-link:hover, .nav-link:active{
+  color: #6e081e;
+}
+
+.hero-section{
+  background: url(../images/cannal2.jpg) center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
 }

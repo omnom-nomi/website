@@ -1,5 +1,4 @@
-
-h1{
+h1 {
   color: #17212d;
   font-size: 48px;
   margin: 5px;
@@ -9,9 +8,10 @@ h1{
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
-  
+
 }
-h2{
+
+h2 {
   color: #17212d;
   font-size: medium;
   margin: 5px;
@@ -22,51 +22,51 @@ h2{
   font-style: normal;
 }
 
-body{
-  padding-top: 70px;
+body {
+  padding-top: 0;
   background-color: #fff;
   padding: 0.5;
-  margin: 0.5;
+  margin: 0;
   font-family: "Inter", sans-serif;
   font-weight: 400;
-  font-style:normal;
+  font-style: normal;
   text-align: center;
 
 }
 
-#navigation{
-  border:1px solid #6e081e;
-  border-width:1px 0;
-  list-style:none;
-  margin:0;
-  padding:0;
-  text-align:center;
+#navigation {
+  border: 1px solid #6e081e;
+  border-width: 1px 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
-#navigation li{
-  display:inline-block;
-  padding:10px;
-  color:#947064;
-  text-decoration:none;
-  font-weight:bold;
-  cursor:pointer;
+#navigation li {
+  display: inline-block;
+  padding: 10px;
+  color: #947064;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 #navigation li.current {
-  font-weight:normal;
-  cursor:default;
+  font-weight: normal;
+  cursor: default;
 }
 
-#navigation li a{
+#navigation li a {
   color: #6e081e;
   text-decoration: none;
 }
 
-#navigation li a:hover{
+#navigation li a:hover {
   color: #947064;
 }
 
-#footer{
+#footer {
   background-color: #6e081e;
   text-align: center;
   width: 100%;
@@ -77,7 +77,7 @@ body{
   color: #fff;
 }
 
-#address{
+#address {
   background-color: #17212d;
   padding: 20px;
   text-align: center;
@@ -85,7 +85,7 @@ body{
   border-radius: 10px;
 }
 
-#picture-section{
+#picture-section {
   display: flex;
   justify-content: space-around;
   color: #fff;
@@ -94,14 +94,14 @@ body{
   margin-top: 20px;
 }
 
-#banner-container{
-  background-color:#17212d;
+#banner-container {
+  background-color: #17212d;
   padding: 20px;
   border-radius: 5px;
   margin-bottom: 5px;
 }
 
-.picture-box{
+.picture-box {
   text-align: center;
   width: 40%;
   background-color: #947064;
@@ -109,7 +109,7 @@ body{
   padding-top: 40px;
 }
 
-.picture-box img{
+.picture-box img {
   width: 100%;
   height: auto;
   border: 1px solid #6e081e;
@@ -118,25 +118,25 @@ body{
   margin-bottom: 10px;
 }
 
-.picture-box p{
+.picture-box p {
   font-family: "Bebas Neue", sans-serif;
   font-size: 20px;
   color: #e4ccc0;
 }
 
-.centred-picture{
+.centred-picture {
   display: block;
   margin: 0 auto;
 }
 
-.rounded-picture{
+.rounded-picture {
   display: block;
   margin: 0 auto;
   border-radius: 10px;
-  box-shadow: 5px 5px 10px rgba(0, 0,0, 0.4);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
 }
 
-.special-text{
+.special-text {
   font-size: 18px;
   color: #6e081e;
   font-style: normal;
@@ -144,7 +144,7 @@ body{
   font-family: "Bebas Neue", sans-serif
 }
 
-.text-box{
+.text-box {
   width: 95%;
   padding: 1px;
   border: 2px solid #17212d;
@@ -156,20 +156,23 @@ body{
   border-radius: 10px;
 }
 
-.navbar{
+.navbar {
   background-color: #fff;
   height: 70px;
-  opacity: 0.95 ;
+  opacity: 0.95;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 0.5rem;
 }
 
-.navbar-brand{
+.navbar-brand {
   font-weight: 500;
   color: #6e081e;
   font-size: 24px;
   transition: 0.3s color;
 }
 
-.navbar-toggler{
+.navbar-toggler {
   border: none;
   font-size: 1.25em;
 }
@@ -179,51 +182,65 @@ body{
   outline: none;
 }
 
-.nav-link{
+.nav-link {
   color: #947064;
   font-weight: 500;
 }
 
-.nav-link:hover, .nav-link:active{
+.nav-link:hover,
+.nav-link:active {
   color: #6e081e;
 }
 
-.hero-section{
+.hero-section {
   background: url(../images/cannal2.jpg) center;
   background-size: cover;
   width: 100%;
   margin-bottom: 20px;
 }
 
-.hero-section .container{
+.hero-section::before {
+  background-color: rgba(0, 0, 0, 0.3);
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.hero-section .container {
   height: 100vh;
   z-index: 1;
   position: relative;
 }
 
-.hero-section h1,h2,h3,h4{
+.hero-section h1,
+h2,
+h3,
+h4 {
   color: #fff;
   text-decoration: none;
   font-family: "Inter", sans-serif;
 
 }
 
-.hero-section h1{
+.hero-section h1 {
   font-size: 1.5em;
   font-weight: 400;
 }
 
-.hero-section h2{
+.hero-section h2 {
   font-size: 1.2em;
   font-weight: 200;
 }
 
-.hero-section h3{
+.hero-section h3 {
   font-size: 1em;
   font-weight: 150;
 }
 
-.hero-section h4{
+.hero-section h4 {
   font-size: 1em;
   font-weight: 150;
 }

@@ -200,8 +200,3 @@ body {
 .h1-colour{
   color: #6e081e;
 }
-
-.carousel-item img{
-  height: 600px;
-  object-fit: cover;
-}

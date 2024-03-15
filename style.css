@@ -58,7 +58,6 @@ body {
 .navbar {
   background-color: #fff;
   height: 70px;
-  opacity: 0.95;
   margin: 20px;
   border-radius: 10px;
   padding: 0.5rem 10px;
@@ -209,9 +208,12 @@ body {
   object-fit: cover;
 }
 
-.h1-text{
+.h2-text{
+  color: #947064;
   font-family: "Inter", sans-serif;
   font-size: 35px;
-  padding-bottom: 10px;
+  margin: 20px;
+  font-weight: 250;
+  text-decoration: underline;
 
 }

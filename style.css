@@ -23,7 +23,7 @@ h2 {
 }
 
 body {
-  padding-top: 0;
+  padding-top: 70px;
   background-color: #fff;
   padding: 0.5;
   margin: 0;
@@ -34,37 +34,6 @@ body {
 
 }
 
-#navigation {
-  border: 1px solid #6e081e;
-  border-width: 1px 0;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-#navigation li {
-  display: inline-block;
-  padding: 10px;
-  color: #947064;
-  text-decoration: none;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-#navigation li.current {
-  font-weight: normal;
-  cursor: default;
-}
-
-#navigation li a {
-  color: #6e081e;
-  text-decoration: none;
-}
-
-#navigation li a:hover {
-  color: #947064;
-}
 
 #footer {
   background-color: #6e081e;
@@ -72,7 +41,7 @@ body {
   width: 100%;
   box-sizing: border-box;
   border-radius: 10px;
-  padding: 2%;
+  padding: 1%;
   margin: 0 0 1%;
   color: #fff;
 }
@@ -85,76 +54,6 @@ body {
   border-radius: 10px;
 }
 
-#picture-section {
-  display: flex;
-  justify-content: space-around;
-  color: #fff;
-  padding: 10px;
-  border-radius: 10px;
-  margin-top: 20px;
-}
-
-#banner-container {
-  background-color: #17212d;
-  padding: 20px;
-  border-radius: 5px;
-  margin-bottom: 5px;
-}
-
-.picture-box {
-  text-align: center;
-  width: 40%;
-  background-color: #947064;
-  padding: 20px;
-  padding-top: 40px;
-}
-
-.picture-box img {
-  width: 100%;
-  height: auto;
-  border: 1px solid #6e081e;
-  border-radius: 10px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
-  margin-bottom: 10px;
-}
-
-.picture-box p {
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 20px;
-  color: #e4ccc0;
-}
-
-.centred-picture {
-  display: block;
-  margin: 0 auto;
-}
-
-.rounded-picture {
-  display: block;
-  margin: 0 auto;
-  border-radius: 10px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
-}
-
-.special-text {
-  font-size: 18px;
-  color: #6e081e;
-  font-style: normal;
-  text-align: center;
-  font-family: "Bebas Neue", sans-serif
-}
-
-.text-box {
-  width: 95%;
-  padding: 1px;
-  border: 2px solid #17212d;
-  background-color: #6e081e;
-  color: #fff;
-  font-size: 15px;
-  margin: 20px auto;
-  text-align: center;
-  border-radius: 10px;
-}
 
 .navbar {
   background-color: #fff;
@@ -162,22 +61,22 @@ body {
   opacity: 0.95;
   margin: 20px;
   border-radius: 10px;
-  padding: 0.5rem;
+  padding: 0.5rem 10px;
 }
 
 .navbar-brand {
   font-weight: 500;
   color: #6e081e;
-  font-size: 24px;
+  font-size: 20px;
   transition: 0.3s color;
 }
 
 .navbar-toggler {
   border: none;
-  font-size: 1.25em;
+  font-size: 1em;
 }
 
-.navbar-toggler:focus {
+.navbar-toggler:focus, .btn-close:focus {
   box-shadow: none;
   outline: none;
 }
@@ -185,22 +84,42 @@ body {
 .nav-link {
   color: #947064;
   font-weight: 500;
+  position: relative;
 }
 
-.nav-link:hover,
-.nav-link:active {
+.nav-link:hover, .nav-link:active {
   color: #6e081e;
 }
 
+.nav-link::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background-color: #947064;
+  visibility: hidden;
+  transition: 0.3s, ease-in-out;
+}
+
+.nav-link:hover::before, .nav-link.active::before {
+  width: 90%;
+  visibility: visible;
+}
+
 .hero-section {
+  position: relative;
   background: url(../images/cannal2.jpg) center;
   background-size: cover;
   width: 100%;
   margin-bottom: 20px;
+  margin-top: 70px;
 }
 
 .hero-section::before {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.4);
   content: "";
   position: absolute;
   top: 0;
@@ -215,10 +134,7 @@ body {
   position: relative;
 }
 
-.hero-section h1,
-h2,
-h3,
-h4 {
+.hero-section h1,h2, h3, h4 {
   color: #fff;
   text-decoration: none;
   font-family: "Inter", sans-serif;
@@ -231,8 +147,8 @@ h4 {
 }
 
 .hero-section h2 {
-  font-size: 1.2em;
-  font-weight: 200;
+  font-size: 1em;
+  font-weight: 100;
 }
 
 .hero-section h3 {
@@ -243,4 +159,32 @@ h4 {
 .hero-section h4 {
   font-size: 1em;
   font-weight: 150;
+}
+
+@media(max-width:768px){
+  .navbar{
+    height: auto;
+    padding: 0.5rem;
+  }
+
+  .navbar-brand{
+    font-size: 18px;
+  }
+
+  .nav-link{
+    font-size: 16px;
+  }
+
+  .hero-section h1{
+    font-size: 32px;
+  }
+
+  .hero-section h2{
+    font-size: 20px;
+  }
+
+  .hero-section h3, .hero-section h4{
+    font-size: 18px;
+  }
+
 }

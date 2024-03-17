@@ -1,0 +1,246 @@
+commit d4c87b04012d7e637b1185d84b1de4c73a11c27c
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Sun Mar 17 21:22:17 2024 +0000
+
+    updated readme.md
+
+commit 885cd4da3a349d3bd5b768a8b3e7f13953c93d88
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Sun Mar 17 19:25:00 2024 +0000
+
+    fixed the error where some texts were white instead of black
+
+commit 57c3ec4613e58dbd85f4d84043c39dcafc900688
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Sun Mar 17 19:06:00 2024 +0000
+
+    added lines between sections to highlight them and make them stand out
+
+commit 24c60b964ac2292c5368f21bb4f8c26c92927a26
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Sun Mar 17 18:45:32 2024 +0000
+
+    added information about the history of amsterdam, including an introduction, a short section about the golden age and modern amsterdam
+
+commit 8f39d73f498038f5995ec6114dca863d6acd004f
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Sun Mar 17 14:26:15 2024 +0000
+
+    added profile pictures above reviews
+
+commit 88d21ed9824cbfb93a9888d1f46cf1849a9df5e2
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Sun Mar 17 03:20:10 2024 +0000
+
+    added 5*s underneath reviews
+
+commit 529ac72ee12c167499d4454a19292bd0743677f5
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Sun Mar 17 03:12:09 2024 +0000
+
+    added more tourist information about different experiences
+
+commit 6195f3c55b275b26b97b4ec760cbba7ebe8fe946
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Sun Mar 17 01:36:59 2024 +0000
+
+    used lists to display the different tips for first-time visitors
+
+commit 286c1f4d3263c24dc6eb4b783ebcbdbb80e96200
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Sat Mar 16 22:55:52 2024 +0000
+
+    added 6 bootstrap cards for different experiences and also added some learn more buttons to redirect users to the respected websites
+
+commit 647c51585ee6e824d141e1a01fb6167283605fc9
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Sat Mar 16 20:21:32 2024 +0000
+
+    finised the layout of the homepage
+
+commit 9df26d77aa6b3e68f62b5e6ecfb294b6c910b76b
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Sat Mar 16 19:46:23 2024 +0000
+
+    fixed the error where the carousel wasn't responsive with smaller screens
+
+commit f057e714de1397af37787f5f1daf3eec125c22c2
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Sat Mar 16 19:07:22 2024 +0000
+
+    added a section about travelling
+
+commit fecf3de56d932dbc82c3fef95ca23e0e5ce73a9f
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Sat Mar 16 18:30:00 2024 +0000
+
+    added footers to each page
+
+commit 52d3a60a9167ddcd415051e5e2bc39d0feaaf06e
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Sat Mar 16 01:44:13 2024 +0000
+
+    created 4 cards with pictures and text
+
+commit 695d88bc509928e7b655a0c926821d9efaf9b6ad
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Fri Mar 15 12:42:17 2024 +0000
+
+    added static map
+
+commit 2b7273aee6801d7c8a7c6f3c483757ce3636bc80
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Fri Mar 15 04:57:46 2024 +0000
+
+    .
+
+commit 83f60169bca9b1b8dfddc29d5cf11ea0be34a60d
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Fri Mar 15 03:13:54 2024 +0000
+
+    added carousel with slider and captions
+
+commit 2d10e6027f72270b09ed5094e74fe1e8a63f52ad
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Fri Mar 15 02:15:01 2024 +0000
+
+    added static map
+
+commit 45180c5fbf575f0faf1c9a8f9d1c2bd2379114b3
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Fri Mar 15 00:36:29 2024 +0000
+
+    added more bootstrap features so that website is able to be viewed on smaller devices
+
+commit f93099afc21489af81366c15c37c79d45a26cd46
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Thu Mar 14 19:35:23 2024 +0000
+
+    added navs to each page
+
+commit 25066bc95db970affd82f3b1d62e44cbcb9138b3
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Thu Mar 14 03:09:58 2024 +0000
+
+    imprved banner
+
+commit f62b07db8802a05ae747ea4954e3a584404810de
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Thu Mar 14 02:37:13 2024 +0000
+
+    changed homepage by changing navigation bars and banenr
+
+commit ec6ee5c0196306ff29afebd54796327371547548
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Tue Mar 12 13:47:34 2024 +0000
+
+    combined home page and index page into one
+
+commit e9d60392ec23a566b5d170beddb57bd8208934a4
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Mon Mar 11 22:18:14 2024 +0000
+
+    improved the layout of the index page as well as adding some pictures with description and added a border around the banner
+
+commit f2d174b0f0bbd8767ac9c1f7dc7512a9b1a733fc
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Mon Mar 11 15:48:06 2024 +0000
+
+    added another navigation bar at the bottom of the page and added some contact information
+
+commit bd577ce82157585b0043d7830ff6fe27f8d895b8
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Mon Mar 11 00:44:17 2024 +0000
+
+    added picture with rounded edges and shadows, and added a website description for the index page
+
+commit d98839727d9148b6c1360f01fd6a694bc4be56b3
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Sun Mar 10 22:38:09 2024 +0000
+
+    added quote box
+
+commit b18d1278d1367fcaf362817c956b1a567eb69dba
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Sun Mar 10 20:11:51 2024 +0000
+
+    improved navigation buttons and designed them
+
+commit bd025cf82f226f71fa9a87a391d05bc43aba29b8
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Sun Mar 10 14:51:35 2024 +0000
+
+    added some basic navigation buttons for home, history and visit, added a heading amsterdam and designed the font, also added an image(later to be a logo) at the top, added small changes to files
+
+commit af82bf6a1df08f236e712c0574f96ac7c6c6c7f3
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Tue Mar 5 14:00:22 2024 +0000
+
+    added title name
+
+commit 066b6e8e68d2341b2a6bcb41f4df2c8a951815a1
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Tue Mar 5 13:56:10 2024 +0000
+
+    changed second to bold
+
+commit 66ac9e766a88471c8562c01c3a61a462d13b2f43
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Tue Mar 5 13:54:34 2024 +0000
+
+    initial commit
+
+commit b1cf2fb761065ec59c302b1f13433ebb4dc9a368
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Fri Mar 1 13:15:03 2024 +0000
+
+    initial commit
+
+commit c24de9dea1b395046f526b89ed205c811028431a
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Fri Mar 1 13:11:12 2024 +0000
+
+    initial commit
+
+commit 68bdfd37a43cd5a74fe700955388a79d126a4d58
+Merge: 60e4888 9115b51
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Fri Mar 1 12:53:49 2024 +0000
+
+    initial committ
+
+commit 9115b51af2e08e0d36dafb0e52f4d251928d31db
+Author: Naomi Moris <123638021+omnom-nomi@users.noreply.github.com>
+Date:   Fri Mar 1 12:50:22 2024 +0000
+
+    Update index.html
+
+commit 60e4888da9f8f301249e9c7918929da211d88886
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Fri Mar 1 12:48:32 2024 +0000
+
+    added p2
+
+commit 781df1f81c82fc0a838fb526acc4fc633ad03c96
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Fri Mar 1 12:46:38 2024 +0000
+
+    added p2
+
+commit 8042b150944495276bb95939c5eb7c83373f1407
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Fri Mar 1 12:44:13 2024 +0000
+
+    initial commit
+
+commit 711cf6e1b7efdcce66775d007cbe8c7fd1b3c1d1
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Fri Mar 1 12:42:02 2024 +0000
+
+    added another paragraph for testing
+
+commit 6a0c26e3ce02019d359fd8f9b93cdd3483399251
+Author: NAOMI MORIS <n.moris.23@abdn.ac.uk>
+Date:   Fri Mar 1 12:06:04 2024 +0000
+
+    initial commit
